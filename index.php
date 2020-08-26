@@ -1,5 +1,5 @@
 <?php
 
-inclue_once("index.html");
+inclue_once("rewards.html");
 
 ?>
