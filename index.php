@@ -241,7 +241,7 @@ if (brushRadius < 50) { brushRadius = 50 }
 img.onload = function(){  
 	bridgeCanvas.drawImage(img, 0, 0, bridge.width, bridge.height);
 }
-img.loc = '/'; // Set Your url path
+img.loc = ''; // Set Your url path
 img.filename = 'scarcth.png';     // image file name
 if (window.devicePixelRatio >= 2) {
 	var nameParts = img.filename.split('.');
