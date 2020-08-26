@@ -245,7 +245,7 @@ img.loc = ''; // Set Your url path
 img.filename = 'scarcth.png';     // image file name
 if (window.devicePixelRatio >= 2) {
 	var nameParts = img.filename.split('.');
-	img.src = img.loc + nameParts[0]+"-2x"+"."+nameParts[1];
+	img.src = nameParts[0]+"-2x"+"."+nameParts[1];
 } else {
 	img.src = img.loc + img.filename;
 }
