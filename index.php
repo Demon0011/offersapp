@@ -1,5 +1,5 @@
 <?php
 
-inclue_once("new.html");
+inclue_once("index.html");
 
 ?>
